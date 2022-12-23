@@ -76,8 +76,9 @@ button {
     width: fit-content;
     text-align: center;
     margin-top: 5px;
+    border-radius: 8px;
 }
-/* info photo third section*/ 
+/*third section*/ 
 .container{
     display: flex;
     align-content: center;
@@ -94,6 +95,36 @@ button {
 .info {
     display: flex;
     flex-direction: column;
+    text-align: center;
     width: 300px;
     height: 300px;
+}
+/*fourth section
+
+-how can downloaded font families be included?
+*/
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 100px;
+    margin-top: 50px;
+}
+.quote {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-style: italic;
+    font-size: xx-large;
+    color:#1F2937;
+    font-weight: 400;
+}
+.author {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    font-size: medium;
+    margin-left: 150px;
 }
