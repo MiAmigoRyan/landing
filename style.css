@@ -1,3 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+   font-family: Roboto, sans-serif;
+}
+/*first section*/
+.section1 {
+    background-color: #1F2937;
+}
 .header {
-    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 8px;
+    gap: 640px;
+}
+.leftcontent {
+    font-size: large;
+    display: flex;
+    align-items: center;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 8px;
+    gap: 10px;
+}
+a {
+    display: flex;
+    text-decoration: none;
+    color: #f9faf8;
+}
+/* second section */
+.body {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    gap: 200px;
+}
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    gap: 8px;
+}
+#introtitle {
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 48px;  
+    width: 400px; 
+}
+#introdescription {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 400px;
+}
+.photo {
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+}
+button {
+    background-color: #080808;
+    color:#f9faf8;
+    width: fit-content;
+    text-align: center;
+    margin-top: 5px;
+}
+/* info photo third section*/ 
+/*
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+.info {
+    width: 300px;
+    height: 300px;
 }
